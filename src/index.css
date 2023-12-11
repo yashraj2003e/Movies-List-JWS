@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: teal;
+}
+
+.nav-bar {
+  height: 12vh;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-btn {
+  cursor: pointer;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  /* margin-left: 50vw; */
+  background-color: tomato;
+  color: black;
+  font-size: 1.8rem;
+  padding: 9px 25px;
+  transition: 0.2s all;
+}
+
+.nav-btn:hover {
+  box-shadow: 0px 0px 25px black;
+  transform: translateY(-10px);
+}
+
+.nav-bar h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.8rem;
+  font-weight: bolder;
+  text-shadow: 0px 0px 25px black;
+}
+
+.nav-bar h1:hover {
+  cursor: crosshair;
+  color: gold;
+  text-shadow: 0px 0px 25px gold;
+}
+
+.movie button {
+  margin-top: 1rem;
+  padding: 9px 25px;
+  font-size: 1.2rem;
+  background-color: wheat;
+  outline: none;
+  border: none;
+  margin-bottom: 2rem;
+  border-radius: 25px;
+  transition: 0.5s all;
+}
+
+.movie button:hover {
+  cursor: pointer;
+  background-color: lavender;
+}
+
+.movie h2 {
+  margin-top: 1rem;
+}
+
+.movie {
+  transition: 0.5s all;
+  max-height: 420px;
+  max-width: fit-content;
+}
+
+.movie:hover {
+  box-shadow: 0px 5px 25px yellow;
+}
+
+.myList > div {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.login {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 50vw;
+  margin-top: 25vh;
+}
+
+label {
+  font-size: 3rem;
+}
+
+input {
+  padding: 0 0.5rem;
+  font-size: 2rem;
+}
